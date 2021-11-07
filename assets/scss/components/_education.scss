@@ -1,5 +1,19 @@
 .education {
+
     &__item {
         @include avoid-break;
+    }
+
+    &__title {
+        color: $color-darker;
+        font-weight: 300;
+    }
+    
+    &__place {
+        font-weight: 300;
+    }
+
+    &__date {
+        font-weight: 300;
     }
 }
