@@ -21,6 +21,10 @@
         &:hover {
             //transform: translateX(0.5rem);
         }
+
+        ul {
+            clear: both;
+        }
     }
 
     &__company,
