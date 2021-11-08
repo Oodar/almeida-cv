@@ -12,6 +12,9 @@
                         {{ .Employer | safeHTML }}
                     </h3>
                     <h3 class="experience__place">{{ .Place | safeHTML }}</h3>
+                    <div class="experience__blurb">
+                        <p>{{ .Blurb | safeHTML }}</p>
+                    </div>
                 </div>
                 {{ range .Positions }}
                 <div class="experience__job">

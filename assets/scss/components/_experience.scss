@@ -11,7 +11,7 @@
     &__subheader {
         display: block;
         width: 100%;
-        height: 2.4rem;
+        /*height: 2.4rem;*/
     }
 
     &__job {
@@ -65,8 +65,14 @@
         }
     }
 
+    &__blurb {
+        clear: both;
+        margin-bottom: 1em;
+    }
+
     &__bullet {
-        list-style-position: inside;
+        list-style-position: outside;
+        margin-left: 1em;
     }
 
     &__badges {
