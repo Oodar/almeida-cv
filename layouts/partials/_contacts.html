@@ -6,6 +6,11 @@
             <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
         </li>
         {{ end }}
+        {{ if .BasicInfo.CV }}
+        <li class="contact__item">
+            <i class="{{ .BasicInfo.CV.Icon}}"></i><span><a href="{{ .BasicInfo.CV.Url }}">Resume (PDF)</a></span>
+        </li>
+        {{ end }}
     </ul>
 </div>
 {{ end }}
